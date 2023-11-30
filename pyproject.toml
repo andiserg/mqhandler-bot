@@ -2,6 +2,18 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name="mqhandlerbot"
+version="0.1.0"
+dependencies = [
+    'aiogram ~= 3.2.0',
+    'aio-pika ~= 9.3.1'
+]
+
+[project.optional-dependencies]
+ci-cd = ['pre-commit']
+
+
 [tool.isort]
 profile="black"
 
