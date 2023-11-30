@@ -10,6 +10,10 @@ dependencies = [
     'aio-pika ~= 9.3.1'
 ]
 
+[project.optional-dependencies]
+ci-cd = ['pre-commit']
+
+
 [tool.isort]
 profile="black"
 
