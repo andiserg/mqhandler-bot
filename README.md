@@ -10,7 +10,7 @@
     <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code_style-black-black" alt="black"></a>
 </p>
 
-## [Головний репозиторій](https://github.com/AndrewSergienko/mqhandler-bot)
+## [Головний репозиторій](https://github.com/AndrewSergienko/mqhandler)
 
 ## Про проект:
 **Message Queue Handler Bot** - це міні-бот, який пересилає отримані повідомлення телеграм в чергу повідомлень.
